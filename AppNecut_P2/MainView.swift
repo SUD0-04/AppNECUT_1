@@ -10,7 +10,7 @@ import AVFoundation
 
 struct MainView: View {
     @State private var showCamera = false
-    @Environment(\.colorScheme) var colorScheme // 현재 컬러 스킴을 가져옵니다.
+    @Environment(\.colorScheme) var colorScheme // 다크 모드를 위해 Scheme을 가져옴
     
     var body: some View {
         NavigationView {
@@ -48,7 +48,7 @@ struct MainView: View {
                 NavigationLink(destination: SettingView()) {
                     Image(systemName: "gearshape.fill")
                         .font(.title)
-                        .foregroundColor(colorScheme == .dark ? .white : .black) // 다크 모드일 때는 아이콘을 흰색으로 변경합니다.
+                        .foregroundColor(colorScheme == .dark ? .white : .black) // 다크 모드일 때는 아이콘을 흰색으로 변경
                         .padding(.top, -5)
                         .padding(.leading, -10)
                 }
