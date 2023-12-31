@@ -34,9 +34,9 @@ struct MainView: View {
                         }) {
                             Text("SHOT")
                                 .font(.system(size: 20, weight: .bold))
-                                .foregroundColor(colorScheme == .dark ? .black : .white) // 다크 모드일 때는 글씨를 검은색으로 변경합니다.
+                                .foregroundColor(colorScheme == .dark ? .black : .white) // 다크 모드일 때는 글씨를 검은색으로 변경
                                 .frame(width: 100, height: 100)
-                                .background(colorScheme == .dark ? Color.white : Color.black) // 다크 모드일 때는 배경을 흰색으로 변경합니다.
+                                .background(colorScheme == .dark ? Color.white : Color.black) // 다크 모드일 때는 배경을 흰색으로 변경
                                 .clipShape(Circle())
                         }
                         Spacer()

@@ -13,6 +13,7 @@
 		525009592B35458E00B73FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525009582B35458E00B73FA6 /* Preview Assets.xcassets */; };
 		525009602B35475000B73FA6 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250095F2B35475000B73FA6 /* CameraView.swift */; };
 		525009622B35482C00B73FA6 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525009612B35482C00B73FA6 /* SettingView.swift */; };
+		52B627B92B416F5000AB268D /* NecutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B627B82B416F5000AB268D /* NecutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5250095F2B35475000B73FA6 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		525009612B35482C00B73FA6 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		525009632B35649F00B73FA6 /* AppNecut-P2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AppNecut-P2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52B627B82B416F5000AB268D /* NecutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NecutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				525009512B35458E00B73FA6 /* AppNecut_P2App.swift */,
 				525009532B35458E00B73FA6 /* MainView.swift */,
 				5250095F2B35475000B73FA6 /* CameraView.swift */,
+				52B627B82B416F5000AB268D /* NecutView.swift */,
 				525009612B35482C00B73FA6 /* SettingView.swift */,
 				525009552B35458E00B73FA6 /* Assets.xcassets */,
 				525009572B35458E00B73FA6 /* Preview Content */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				525009602B35475000B73FA6 /* CameraView.swift in Sources */,
+				52B627B92B416F5000AB268D /* NecutView.swift in Sources */,
 				525009622B35482C00B73FA6 /* SettingView.swift in Sources */,
 				525009542B35458E00B73FA6 /* MainView.swift in Sources */,
 				525009522B35458E00B73FA6 /* AppNecut_P2App.swift in Sources */,
